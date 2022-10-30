@@ -1,0 +1,66 @@
+@import './settings.scss';
+
+.section5{
+    height: 21.6rem;
+    margin:0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-green;
+}
+
+.section5__content{
+    height: calc(21.6rem - 3.2rem - 3.2rem);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+        font-weight: $font-weight700;
+        font-size: 2.8rem;
+        list-style: 3.6rem;
+        color: $color-white;
+        margin: 0;
+    }
+    form {
+        width: 65.7rem;
+        height: 4.4rem;
+
+        display: flex;
+        justify-content: space-between;
+        input[type="text"] {
+            width: 50.2rem;
+            height: 4.4rem;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+        }
+        button {
+            width: 14.5rem;
+            height: 4.4rem;
+            border: 0.2rem solid $color-white;
+            background-color: $color-green;
+            color: $color-white;
+            font-family: $font-subscribebtn;
+            font-weight: $font-weight700;
+            font-size: 1.6rem;
+            list-style: 2.4rem;
+            cursor: pointer;
+            animation: pulse 2s infinite alternate;
+        }
+    }
+    p {
+        font-weight: $font-weight400;
+        font-size: 1.6rem;
+        list-style: 2.4rem;
+        margin: 0;
+        color: $color-white;
+    }
+}
+
+input::placeholder {
+    color: $color-green;
+    padding: 1.4rem 41.2rem 1.4rem 1.8rem;
+    }

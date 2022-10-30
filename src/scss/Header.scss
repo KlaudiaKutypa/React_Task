@@ -1,0 +1,76 @@
+@import './settings.scss';
+
+.header {
+    height: 18.4em;
+    width: 100%;
+    margin: 0;
+
+    display: flex;
+}
+
+.header__content {
+    height: 10.2rem;
+    width: 100%;
+    margin-top: 5.4rem;
+    margin-bottom: 2.8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    img {
+        width: 17.2rem;
+        height: 4rem;
+    }
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu__list {
+    width: 65.6rem;
+    margin-left: 14.2rem;
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    list-style: none;
+    color:  $color-headermenu;
+    :first-child {
+        color:  $color-black;
+        text-decoration: underline;
+    }
+}
+
+.header__menu__list li {
+   font-weight: $font-weight400;
+   font-size: 16px;
+   transition: transform 0.5s ease-in-out;
+}
+
+.header__menu__list li:hover {
+  font-weight: $font-weight700;
+  color: $color-green;
+  cursor: pointer;
+  transform: scale(1.5);
+ }
+
+.header__contactbtn {
+    height: 4.5rem;
+    width: 18.37rem;
+    
+    font-weight: $font-weight700;
+    font-size: 1.6rem;
+    color: $color-white;
+    background-color: $color-green;
+    border: none;
+    transition: transform 1s ease-in-out;
+}
+
+.header__contactbtn:hover {
+   transform: scale(0.8);
+}
+

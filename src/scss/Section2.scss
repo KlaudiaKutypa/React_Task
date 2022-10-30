@@ -1,0 +1,67 @@
+@import './settings.scss';
+
+
+.section2 {
+    height: 55.8rem;
+    margin:0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+        font-weight: $font-weight700;
+        font-size: 4rem;
+        line-height: 5.2rem;
+        margin-top: 0;
+        margin-bottom: 2.4rem;
+    }
+}
+
+.section2__content {
+    width: 100%;
+}
+
+.section2__content__box {
+    border-bottom: 0.1rem solid $color-black;
+    margin-bottom: 2.4rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   p {
+    font-weight: $font-weight400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+   }
+   span {
+    font-weight: $font-weight400;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+   }
+   h3 {
+    font-weight: $font-weight700;
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    margin-top: 0;
+   }
+   img {
+    width: 4.324rem;
+    height: 4.324rem;
+   }
+}
+
+#line {
+    width: calc(4.324rem / 2);
+    height: 0.3rem;
+    margin-top: calc(4.324rem / 2);
+    margin-left: calc(4.324rem / 4);
+    position: absolute;
+}
+
+#elipse {
+    position: relative;
+}

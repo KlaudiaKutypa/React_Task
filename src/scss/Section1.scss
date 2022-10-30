@@ -1,0 +1,72 @@
+@import './settings.scss';
+
+.section1 {
+    height: 50.6rem;
+    margin:0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1__content {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.section1__content__text {
+    width: 46.7rem;
+    height: 36.4rem;
+    margin-left:11.2rem;
+    margin-right:6.5rem;
+    margin-top: 7.6rem;
+    margin-bottom: 6.6rem; 
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    h1 {
+        margin: 0;
+        font-weight: $font-weight700;
+        font-size: 4.8rem;
+        line-height: 6.4rem;
+    }
+    h1 span {
+        color: $color-green;
+    }
+    p {
+        height: 14.4rem;
+        width: 36.7rem;
+
+        font-size: 1.6rem;
+        font-weight: $font-weight400;
+        line-height: 2.4rem;
+        color: $color-black;
+    }
+    button {
+        width: 21.8rem;
+        height: 6rem;
+
+        background-color: $color-green;
+        color: $color-white;
+        font-weight: $font-weight700;
+        font-size: 1.6rem;
+        border: none;
+        transition: transform 1s ease-in-out;
+    }
+    button:hover{
+        cursor: pointer;
+        transform: scale(0.8);
+    }
+}
+
+.section1__content__photo {
+    height: 100%;
+    width: 75.8rem;
+    margin-right: 3.5rem;
+
+    background-position: cover;
+}
+

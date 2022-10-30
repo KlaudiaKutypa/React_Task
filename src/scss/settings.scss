@@ -1,0 +1,26 @@
+//fonts
+$font-base: 'Roboto', normal;
+$font-subscribebtn: 'Mulish', normal;
+
+//font-weight
+$font-weight400: '400';
+$font-weight700: '700';
+
+//colors
+$color-green: #29CC6A;
+$color-black: #2B2D26;
+$color-white: #FFFFFF;
+$color-link: #00AEEF;
+$color-headermenu: #787A7C;
+
+//animation
+@keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+   
+    to {
+      transform: scale(1.5);
+      background-color: $color-black
+    }
+  }
